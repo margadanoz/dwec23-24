@@ -1,0 +1,145 @@
+*{
+    background-color: antiquewhite;
+    margin:auto;
+    font-family:monospace;
+    
+}
+
+.navBar{
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    
+}
+
+.navBar h1{
+    background-color: yellowgreen;
+    
+}
+
+.navBar a{
+    background-color: yellowgreen;
+}
+.navBar ul{
+    flex-direction: row;
+    align-items: left;
+    list-style-type: none;
+    background-color: yellowgreen;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar li{
+    display: inline-block;
+    margin-right: 10px;
+    background-color: yellowgreen ;
+}
+
+.containerPrincipal{
+    background-color: aquamarine;
+    display: flex;
+    margin: 10px;
+    border: 1px solid black;
+
+}
+
+.containerPrincipal h1{
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    font-family:monospace;
+    border: 1px solid black;
+}
+
+.containerPrincipal p{
+    flex-direction: row;
+    background-color: aquamarine;
+    align-items: center;
+    padding: 10px;
+    font-family: monospace;
+    
+}
+
+.lista{
+    background-color: aquamarine;
+    display: flex;
+    margin:10px;
+    border: 1px solid black;
+}
+
+.imagen{
+    display:flex;
+    margin:10px;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    
+
+}
+
+.imagen img{
+    width: 50%;
+    height: 50%;
+}
+
+.formulario{
+    display:flex;
+    margin:10px;
+    background-color: aquamarine;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.formulario form{
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 8%;
+}
+
+.formulario button{
+    background-color: yellowgreen;
+    margin-right: 120px;
+    border-radius: 10%;
+}
+
+.formulario a{
+    text-decoration: none;
+}
+
+/*PARA FOOTER*/
+.footer{
+   background-color: yellowgreen;
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+   
+}
+
+.footer ul{
+    align-items: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+background-color: yellowgreen;
+}
+
+.footer li{
+    display: inline-block;
+    margin-right: 10px;
+    background-color: yellowgreen;
+}
+
+.footer a{  
+    background-color: yellowgreen;
+}
+
+.footer p{
+    background-color: yellowgreen;
+    margin-left: 0;
+}
+
+
